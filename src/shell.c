@@ -101,7 +101,8 @@ char **split_line(char *line) {
 char *builtin_str[] = {
 	"cd",
 	"help",
-	"exit"
+	"exit",
+	"history"
 };
 
 // Array of function pointers that takes an array of strings and returns an int.
